@@ -11,6 +11,14 @@
 		50CD55C730A3597E00398A95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD55C630A3597E00398A95 /* ContentView.swift */; };
 		50CD55C930A3598000398A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CD55C830A3598000398A95 /* Assets.xcassets */; };
 		50CD55CC30A3598000398A95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CD55CB30A3598000398A95 /* Preview Assets.xcassets */; };
+		50CD55D330A359D800398A95 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD55D230A359D800398A95 /* HomeView.swift */; };
+		50CD55D530A35A0100398A95 /* SingleTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD55D430A35A0100398A95 /* SingleTapView.swift */; };
+		50CD55D730A35A1900398A95 /* MultipleTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD55D630A35A1800398A95 /* MultipleTapView.swift */; };
+		50CD55D930A35A3100398A95 /* LongPressedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD55D830A35A3100398A95 /* LongPressedView.swift */; };
+		50CD55DB30A35A4C00398A95 /* NestedGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD55DA30A35A4C00398A95 /* NestedGestureView.swift */; };
+		50CD55DD30A35A6200398A95 /* HighPriorityGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD55DC30A35A6200398A95 /* HighPriorityGestureView.swift */; };
+		50CD55DF30A35A7900398A95 /* SimultaneousGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD55DE30A35A7900398A95 /* SimultaneousGestureView.swift */; };
+		50CD55E130A35A9300398A95 /* SequenceGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD55E030A35A9200398A95 /* SequenceGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		50CD55C630A3597E00398A95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50CD55C830A3598000398A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50CD55CB30A3598000398A95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50CD55D230A359D800398A95 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		50CD55D430A35A0100398A95 /* SingleTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTapView.swift; sourceTree = "<group>"; };
+		50CD55D630A35A1800398A95 /* MultipleTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTapView.swift; sourceTree = "<group>"; };
+		50CD55D830A35A3100398A95 /* LongPressedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressedView.swift; sourceTree = "<group>"; };
+		50CD55DA30A35A4C00398A95 /* NestedGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGestureView.swift; sourceTree = "<group>"; };
+		50CD55DC30A35A6200398A95 /* HighPriorityGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighPriorityGestureView.swift; sourceTree = "<group>"; };
+		50CD55DE30A35A7900398A95 /* SimultaneousGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultaneousGestureView.swift; sourceTree = "<group>"; };
+		50CD55E030A35A9200398A95 /* SequenceGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				50CD55C430A3597E00398A95 /* GesturesApp.swift */,
+				50CD55D230A359D800398A95 /* HomeView.swift */,
+				50CD55D430A35A0100398A95 /* SingleTapView.swift */,
+				50CD55D630A35A1800398A95 /* MultipleTapView.swift */,
+				50CD55D830A35A3100398A95 /* LongPressedView.swift */,
+				50CD55DA30A35A4C00398A95 /* NestedGestureView.swift */,
+				50CD55DC30A35A6200398A95 /* HighPriorityGestureView.swift */,
+				50CD55DE30A35A7900398A95 /* SimultaneousGestureView.swift */,
+				50CD55E030A35A9200398A95 /* SequenceGestureView.swift */,
 				50CD55C630A3597E00398A95 /* ContentView.swift */,
 				50CD55C830A3598000398A95 /* Assets.xcassets */,
 				50CD55CA30A3598000398A95 /* Preview Content */,
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CD55D730A35A1900398A95 /* MultipleTapView.swift in Sources */,
+				50CD55D530A35A0100398A95 /* SingleTapView.swift in Sources */,
+				50CD55D330A359D800398A95 /* HomeView.swift in Sources */,
+				50CD55DB30A35A4C00398A95 /* NestedGestureView.swift in Sources */,
+				50CD55DD30A35A6200398A95 /* HighPriorityGestureView.swift in Sources */,
+				50CD55E130A35A9300398A95 /* SequenceGestureView.swift in Sources */,
 				50CD55C730A3597E00398A95 /* ContentView.swift in Sources */,
 				50CD55C530A3597E00398A95 /* GesturesApp.swift in Sources */,
+				50CD55D930A35A3100398A95 /* LongPressedView.swift in Sources */,
+				50CD55DF30A35A7900398A95 /* SimultaneousGestureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,7 @@ import SwiftUI
 struct GesturesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
